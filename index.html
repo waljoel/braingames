@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activa Mente!</title>
+    <style>
+        /* Estilo para el cuerpo del juego */
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif; /* Fuente divertida */
+        }
+
+        /* Estilo para el título */
+        h1 {
+            font-size: 36px; /* Tamaño grande para niños */
+            text-align: center; /* Centrado en la página */
+        }
+
+        /* Estilo para los botones */
+        button {
+            font-size: 24px; /* Tamaño grande para niños */
+            padding: 10px 20px; /* Espacio alrededor del texto */
+            background-color: #ffcc00; /* Color de fondo amarillo */
+            border: none; /* Sin borde */
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer; /* Cursor de puntero al pasar por encima */
+        }        
+
+         /* Estilo para el texto seleccionado */
+        #selectedColor, #selectedChallenge {
+            font-size: 24px; /* Tamaño grande para niños */
+            margin-top: 20px; /* Espacio superior */
+        }
+
+        /* Estilo para la imagen del cerebro */
+        #brainImage {
+            max-width: 100%; /* Ancho máximo */
+            height: auto; /* Altura automática para mantener la proporción */
+            margin-top: 20px; /* Espacio superior */
+        }       
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Activa Mente!</h1>
+        <button id="startGame">Jugar!</button>
+        <button id="explainChallenge">Explicar</button>
+        <br/><br/>
+        <div id="resultContainer">
+            <div id="selectedColor"></div>
+            <div id="selectedChallenge"></div>
+            <br/><br/>
+            <img src="brain_image.png" alt="Lóbulo cerebral" id="brainImage" width="200px" height="200px">
+        </div>
+    </center>
+    <!-- Include JavaScript -->
+    <script src="game.js"></script>
+</body>
+</html>
