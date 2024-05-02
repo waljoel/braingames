@@ -244,7 +244,7 @@ document.getElementById('startGame').addEventListener('click', function() {
 
 
     // Update UI with selected color and challenge
-    selected_item = lobes[randomColor]['name']
+    selected_item = lobes[randomColor]['name'];
     if (selected_item == "Cerebelo") {
         selected_item_text = selected_item;
     } else {
