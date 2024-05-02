@@ -245,10 +245,11 @@ document.getElementById('startGame').addEventListener('click', function() {
 
     // Update UI with selected color and challenge
     selected_item = lobes[randomColor]['name']
-    if selected_item == "Cerebelo"
-        selected_item_text = selected_item
-    else
-        selected_item_text = `Lóbulo ${selected_item}`
+    if (selected_item == "Cerebelo") {
+        selected_item_text = selected_item;
+    } else {
+        selected_item_text = `Lóbulo ${selected_item}`;
+    }    
     document.getElementById('selectedColor').textContent = selected_item_text;
     document.getElementById('selectedColor').style.color = lobes[randomColor]['en-color'];
     document.getElementById('selectedChallenge').innerHTML = `Desafío: ${randomChallenge.challenge}`;
