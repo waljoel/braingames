@@ -1,418 +1,233 @@
 const frontalLobeChallenges = [
     {
-        challenge: 'Dibuja una imagen detallada de un paisaje de tus sueños.',
-        explanation: 'Este desafío involucra el lóbulo frontal, responsable de la planificación y toma de decisiones, así como de la creatividad y la imaginación.'
+        challenge: 'Siéntate en el piso y levántate sin apoyar los brazos',
+        explanation: 'Este desafío implica coordinación motora fina y equilibrio, habilidades que están controladas por el lóbulo frontal del cerebro.'
     },
     {
-        challenge: 'Crea una historia utilizando tres objetos aleatorios de tu habitación.',
-        explanation: 'El lóbulo frontal participa en contar historias y conectar ideas, haciendo de este desafío un buen ejercicio para el pensamiento creativo y las habilidades narrativas.'
+        challenge: 'Haz la mímica de las siguientes palabras e intenta que los demás adivinen: PALOMITA, ESCALERA, BUFANDA',
+        explanation: 'Este desafío requiere planificación y ejecución de movimientos precisos, tareas asociadas al lóbulo frontal relacionadas con la organización y la coordinación.'
     },
     {
-        challenge: 'Diseña un nuevo traje para tu superhéroe favorito.',
-        explanation: 'Implica tu lóbulo frontal usando tu imaginación y habilidades de planificación para crear un traje único.'
+        challenge: 'Describe los pasos a seguir para cepillarte los dientes',
+        explanation: 'El lóbulo frontal se activa al planificar y ejecutar secuencias de acciones complejas, como seguir pasos para cepillarse los dientes.'
     },
     {
-        challenge: 'Escribe una carta a alguien que admires.',
-        explanation: 'Este desafío estimula el lóbulo frontal al fomentar la expresión reflexiva y la conexión emocional.'
+        challenge: 'Repite las siguientes palabras: ANTICONSTITUCIONALMENTE, CONSTANTINOPLA, ESTERNOCLEIDOMASTOIDEO',
+        explanation: 'Este desafío pone a prueba la memoria de trabajo y la capacidad de procesamiento del lenguaje, funciones asociadas al lóbulo frontal.'
     },
     {
-        challenge: 'Haz una lista de cinco cosas por las que estás agradecido hoy.',
-        explanation: 'Practicar la gratitud activa el lóbulo frontal, promoviendo el pensamiento positivo y el bienestar emocional.'
+        challenge: 'Responde a la siguiente pregunta: EL PADRE DE MARÍA TIENE 5 HIJAS, LALÁ, LELÍ, LOLÓ, Y ... ¿cómo se llama la quinta hija?',
+        explanation: 'Este desafío involucra el razonamiento lógico y la resolución de problemas, funciones clave del lóbulo frontal relacionadas con la toma de decisiones.'
     },
     {
-        challenge: 'Planifica y cocina una receta simple con ayuda de un adulto.',
-        explanation: 'Participa en la planificación, organización y toma de decisiones mientras cocinas, funciones del lóbulo frontal.'
+        challenge: 'Imita el movimiento de una ola y pide a los demás que te sigan en sincronía',
+        explanation: 'La coordinación de movimientos complejos y la interacción social están asociadas al lóbulo frontal, que se activa al realizar este desafío.'
     },
     {
-        challenge: 'Crea una coreografía para tu canción favorita.',
-        explanation: 'Bailar implica creatividad, coordinación y planificación, funciones que activan el lóbulo frontal.'
+        challenge: 'Imagina que te ganas la lotería, ¿en qué te gastarías el dinero?',
+        explanation: 'La capacidad de planificación de metas y la toma de decisiones sobre el futuro se relacionan con el lóbulo frontal, que se activa al considerar esta situación hipotética.'
     },
     {
-        challenge: 'Investiga y comparte un dato interesante sobre un planeta.',
-        explanation: 'Involúcrate en el aprendizaje impulsado por la curiosidad y el procesamiento de información, apoyado por el lóbulo frontal.'
+        challenge: 'Haz una serie de saltos en el lugar y cuenta cuántos logras hacer en 30 segundos',
+        explanation: 'Este desafío requiere atención sostenida, control motor y capacidad para establecer metas, todas funciones del lóbulo frontal.'
     },
     {
-        challenge: 'Cuenta un chiste o una historia divertida para hacer reír a alguien.',
-        explanation: 'Este desafío estimula la interacción social, el humor y la expresión emocional, involucrando al lóbulo frontal.'
+        challenge: 'Responde a la siguiente pregunta: SI UN TREN SALE A LAS 10 A.M Y VIAJA A 60 KM/H, ¿a qué hora llegará a su destino?',
+        explanation: 'El lóbulo frontal se activa al resolver problemas matemáticos y planificar el tiempo, habilidades necesarias para este desafío.'
     },
     {
-        challenge: 'Construye una estructura usando naipes sin que se caigan.',
-        explanation: 'Involúcrate en la planificación, resolución de problemas y percepción espacial, funciones del lóbulo frontal.'
-    },
-    {
-        challenge: 'Resuelve un rompecabezas o adivinanza.',
-        explanation: 'Los rompecabezas y adivinanzas requieren pensamiento lógico y resolución de problemas, involucrando al lóbulo frontal.'
-    },
-    {
-        challenge: 'Compón una canción o melodía usando objetos del hogar como instrumentos.',
-        explanation: 'Este desafío creativo estimula la imaginación y la planificación, activando el lóbulo frontal.'
-    },
-    {
-        challenge: 'Crea un tablero de visión para tus metas y sueños.',
-        explanation: 'Los tableros de visión fomentan el establecimiento de metas, la visualización y la planificación, apoyados por el lóbulo frontal.'
-    },
-    {
-        challenge: 'Escribe y representa una obra de teatro corta con tus amigos.',
-        explanation: 'Participa en la creatividad colaborativa, la planificación y la comunicación, activando el lóbulo frontal.'
-    },
-    {
-        challenge: 'Organiza una mini exposición de arte mostrando tus obras.',
-        explanation: 'La planificación y organización de una exposición involucran al lóbulo frontal, junto con la creatividad y la autoexpresión.'
-    },
-    {
-        challenge: 'Aprende y realiza un nuevo truco de magia.',
-        explanation: 'Los trucos de magia involucran la planificación, coordinación y práctica, estimulando el lóbulo frontal.'
-    },
-    {
-        challenge: 'Crea un póster sobre un tema que te parezca interesante.',
-        explanation: 'Diseñar un póster involucra la creatividad, la investigación y la planificación, activando el lóbulo frontal.'
-    },
-    {
-        challenge: 'Planea y organiza una fiesta de té o picnic ficticia con amigos o juguetes.',
-        explanation: 'Actividades sociales y de planificación involucran al lóbulo frontal, fomentando la creatividad y habilidades sociales.'
-    },
-    {
-        challenge: 'Escribe e ilustra una tira cómica o cuento corto.',
-        explanation: 'Ilustrar escenas literarias fomenta la interpretación visual, la creatividad y la narración, activando el lóbulo frontal.'
-    },
-    {
-        challenge: 'Juega un juego de estrategia como ajedrez o damas.',
-        explanation: 'Los juegos de estrategia involucran planificación, resolución de problemas y toma de decisiones, funciones del lóbulo frontal.'
+        challenge: 'Describe una situación en la que sentiste miedo y cómo lo enfrentaste utilizando tu pensamiento racional',
+        explanation: 'Este desafío involucra el control emocional y la capacidad de reflexionar sobre experiencias pasadas, funciones asociadas al lóbulo frontal.'
     }
 ];
+
 
 
 const occipitalLobeChallenges = [
     {
-        challenge: 'Dibuja una imagen detallada de un paisaje.',
-        explanation: 'Este desafío involucra el lóbulo occipital, responsable del procesamiento visual y la percepción, así como de la conciencia espacial.'
+        challenge: 'Dibuja <a href="https://i.pinimg.com/150x150/92/ed/78/92ed7864938f79eae4d4173928bacbf1.jpg" target="_blank">esta figura</a> luego de observarla por 15 segundos',
+        explanation: 'El lóbulo occipital se activa al observar y procesar información visual. Este desafío pone a prueba la capacidad de memoria visual y la interpretación de formas y detalles después de un periodo de observación.'
     },
     {
-        challenge: 'Completa una página para colorear compleja o pinta por números.',
-        explanation: 'Actividades de coloreado o pintura estimulan el lóbulo occipital al enfocarse en detalles visuales, coordinación y creatividad.'
+        challenge: 'Observa la forma del espacio que te rodea con atención durante 10 segundos y luego cuenta cuántos círculos pudiste identificar',
+        explanation: 'El lóbulo occipital es esencial para la percepción y el procesamiento visual. Este desafío requiere contar con precisión los elementos visuales identificados después de una observación enfocada del entorno.'
     },
     {
-        challenge: 'Resuelve un rompecabezas visual o ilusión óptica.',
-        explanation: 'Puzzles visuales e ilusiones desafían la percepción, atención al detalle y habilidades de resolución de problemas del lóbulo occipital.'
+        challenge: 'Observa una fila de participantes (u objetos) por unos segundos y luego intenta reproducir el órden en que se encontraban',
+        explanation: 'La memoria visual y la interpretación de secuencias espaciales son funciones del lóbulo occipital. Este desafío evalúa la capacidad de recordar y reproducir el orden espacial de objetos después de una breve observación.'
     },
     {
-        challenge: 'Identifica y nombra diferentes colores en un arcoíris o obra de arte.',
-        explanation: 'Ejercicios de reconocimiento y diferenciación de colores activan el lóbulo occipital, apoyando el procesamiento visual y la cognición.'
+        challenge: 'Reconoce en el espacio dos objetos que tengan la misma forma pero distinto tamaño',
+        explanation: 'El procesamiento visual de formas y dimensiones es una función clave del lóbulo occipital. Este desafío requiere identificar objetos con formas similares pero tamaños diferentes en el entorno visual.'
     },
     {
-        challenge: 'Crea un collage usando imágenes de revistas o imágenes impresas.',
-        explanation: 'La creación de collages involucra organización visual, creatividad y disposición espacial, activando el lóbulo occipital.'
+        challenge: 'Observa esta secuencia de colores y repite el patrón: <center><div style="color:red; display: inline-block">R</div>, <div style="color:blue; display: inline-block">A</div>, <div style="color:blue; display: inline-block">A</div>, <div style="color:green; display: inline-block">V</div>, <div style="color:red; display: inline-block">R</div>, <div style="color:blue; display: inline-block">A</div>, <div style="color:blue; display: inline-block">A</div>, ...</center>',
+        explanation: 'El lóbulo occipital es responsable de procesar información visual, incluidos los colores y patrones. Este desafío evalúa la capacidad de recordar y repetir secuencias de colores después de una observación visual.'
     },
     {
-        challenge: 'Mira un video o película corta y resume la trama.',
-        explanation: 'Ver y resumir medios visuales estimula el lóbulo occipital, junto con la comprensión y habilidades de narración.'
+        challenge: 'Observa a tu alrededor por algunos segundos y luego intenta recordar el color de la vestimenta de un participante',
+        explanation: 'La memoria visual es una función importante del lóbulo occipital. Este desafío pone a prueba la capacidad de recordar detalles visuales específicos, como los colores de la vestimenta, después de una observación breve.'
     },
     {
-        challenge: 'Juega un juego de memoria visual o empareja imágenes.',
-        explanation: 'Juegos de memoria que dependen del recuerdo visual involucran el lóbulo occipital, apoyando la memoria y las funciones cognitivas.'
+        challenge: 'Identifica el espacio cuatro objetos de un mismo color',
+        explanation: 'El procesamiento visual de colores y la discriminación visual son funciones del lóbulo occipital. Este desafío requiere identificar objetos del mismo color en el entorno visual.'
     },
     {
-        challenge: 'Encuentra objetos ocultos en una imagen o busca diferencias entre dos imágenes.',
-        explanation: 'Tareas de búsqueda visual desafían al lóbulo occipital al mejorar la atención al detalle, habilidades de observación y percepción.'
+        challenge: 'Observa tu alrededor y encuentra tres objetos de forma similar',
+        explanation: 'La interpretación visual de formas y la capacidad de identificar similitudes son funciones del lóbulo occipital. Este desafío evalúa la capacidad de encontrar objetos con formas similares en el entorno visual.'
     },
     {
-        challenge: 'Dibuja un autorretrato o un retrato de un amigo.',
-        explanation: 'La ilustración de retratos ejercita la percepción visual, el reconocimiento facial y las habilidades artísticas, involucrando al lóbulo occipital.'
+        challenge: 'Observa tu alrededor durante 20 segundos y luego con los ojos cerrados trata de descubrir cuatro cosas que habías podido visualizar',
+        explanation: 'La memoria visual y la capacidad de recordar detalles visuales son funciones del lóbulo occipital. Este desafío pone a prueba la memoria visual al recordar objetos visualizados después de un periodo de observación.'
     },
     {
-        challenge: 'Crea una línea de tiempo visual de eventos históricos o hitos personales.',
-        explanation: 'Organizar información visual en un formato de línea de tiempo involucra al lóbulo occipital, junto con habilidades de memoria y secuenciación.'
-    },
-    {
-        challenge: 'Mira un documental sobre la naturaleza y describe los animales y hábitats.',
-        explanation: 'Observar y describir escenas naturales estimula el lóbulo occipital, apoyando el procesamiento visual y la comprensión.'
-    },
-    {
-        challenge: 'Diseña y decora un póster con patrones y formas coloridas.',
-        explanation: 'Diseñar un póster involucra creatividad visual, reconocimiento de patrones y disposición espacial, activando el lóbulo occipital.'
-    },
-    {
-        challenge: 'Crea una animación stop-motion usando objetos o dibujos.',
-        explanation: 'La animación stop-motion ejercita la narración visual, coordinación y creatividad, activando el lóbulo occipital.'
-    },
-    {
-        challenge: 'Resuelve un rompecabezas de piezas pequeñas con una imagen desafiante.',
-        explanation: 'Los rompecabezas requieren coincidencia visual, razonamiento espacial y resolución de problemas, involucrando al lóbulo occipital.'
-    },
-    {
-        challenge: 'Toma fotografías de objetos o escenas interesantes y crea un álbum de fotos.',
-        explanation: 'La fotografía y la creación de álbumes involucran la percepción visual, la creatividad y la organización, estimulando el lóbulo occipital.'
-    },
-    {
-        challenge: 'Dibuja un mapa detallado de un mundo ficticio o una búsqueda del tesoro.',
-        explanation: 'La creación de mapas ejercita la imaginación espacial, la orientación a los detalles y la narración, activando el lóbulo occipital.'
-    },
-    {
-        challenge: 'Crea un mapa mental visual para un tema o sesión de lluvia de ideas.',
-        explanation: 'El mapa mental involucra organización visual, asociación y creatividad, apoyando las funciones del lóbulo occipital.'
-    },
-    {
-        challenge: 'Mira un tutorial de arte e intenta replicar las técnicas.',
-        explanation: 'Los tutoriales de arte involucran aprendizaje visual, desarrollo de habilidades y creatividad, estimulando el lóbulo occipital.'
-    },
-    {
-        challenge: 'Crea una animación en flipbook usando dibujos o notas adhesivas.',
-        explanation: 'La animación en flipbook ejercita la secuenciación visual, el tiempo y la creatividad, involucrando el lóbulo occipital.'
-    },
-    {
-        challenge: 'Dibuja una escena de tu libro o historia favorita.',
-        explanation: 'Ilustrar escenas literarias fomenta la interpretación visual, la creatividad y la narración, activando el lóbulo occipital.'
-    }
+        challenge: 'Observa una secuencia de cuatro movimientos realizados por otro participantes y luego reprodúcela',
+        explanation: 'La interpretación visual de movimientos y la coordinación visuomotora son funciones del lóbulo occipital. Este desafío requiere observar y reproducir secuencias de movimientos después de una observación visual.'
+    }    
 ];
 
 
 const parietalLobeChallenges = [
-    // Desafíos anteriores...
 
     {
-        challenge: 'Crea una serie de pistas visuales para una búsqueda del tesoro en el exterior.',
-        explanation: 'La creación de pistas visuales involucra la planificación, el pensamiento secuencial y la orientación espacial, activando el lóbulo parietal.'
+        challenge: 'Toma 10 segundos para observar a tu alrededor y luego cierra los ojos y vuelve a mirar. Identifica qué cambio de lugar',
+        explanation: 'Este desafío pone a prueba la percepción sensorial y la capacidad de orientación espacial, funciones clave del lóbulo parietal.'
     },
     {
-        challenge: 'Participa en juegos de mesa que requieran estrategia y planificación.',
-        explanation: 'Los juegos de mesa estratégicos ejercitan la planificación, la resolución de problemas y la toma de decisiones, involucrando al lóbulo parietal.'
+        challenge: 'Cuenta detalladamente lo que has hecho el día de hoy',
+        explanation: 'Este desafío involucra la memoria episódica y la capacidad de recordar eventos recientes, funciones asociadas al lóbulo parietal.'
     },
     {
-        challenge: 'Crea una representación visual de un concepto abstracto como la amistad o la felicidad.',
-        explanation: 'La representación de conceptos abstractos estimula la creatividad, la expresión visual y la interpretación, activando el lóbulo parietal.'
+        challenge: 'Imagina que estás en la playa. Descubre lo que ves, escuchas, sientes, hueles y saboreas en tu mente',
+        explanation: 'La capacidad de imaginar y experimentar sensaciones multisensoriales se relaciona con el lóbulo parietal, que se activa al realizar este desafío.'
     },
     {
-        challenge: 'Organiza un evento o actividad social para tus amigos y planifica la logística.',
-        explanation: 'La organización de eventos involucra la planificación, la coordinación y la comunicación, funciones del lóbulo parietal.'
+        challenge: 'Nombra tres objetos que tengan un aroma agradable',
+        explanation: 'El reconocimiento de estímulos sensoriales como el olfato está relacionado con el lóbulo parietal, que se activa al identificar olores agradables.'
     },
     {
-        challenge: 'Completa un laberinto o rompecabezas de lógica visual.',
-        explanation: 'Los rompecabezas de lógica ejercitan el pensamiento crítico, la resolución de problemas y la atención visual, involucrando al lóbulo parietal.'
+        challenge: 'Con los ojos cerrados, abre los brazos y luego intenta tocar las puntas de tus dedos índices entre sí',
+        explanation: 'La coordinación motora fina y la percepción de la posición del cuerpo (propiocepción) son funciones del lóbulo parietal que se ponen a prueba en este desafío.'
     },
     {
-        challenge: 'Escribe una historia usando solo imágenes y sin palabras.',
-        explanation: 'La narración visual fomenta la creatividad, la secuenciación y la comunicación no verbal, activando el lóbulo parietal.'
+        challenge: 'Intenta adivinar lo que un compañero dibuja con un dedo en tu espalda',
+        explanation: 'La percepción táctil y la capacidad de interpretar estímulos sensoriales son funciones del lóbulo parietal que se utilizan al realizar este desafío.'
     },
     {
-        challenge: 'Dibuja una imagen que represente tu emoción actual sin usar palabras.',
-        explanation: 'La expresión emocional a través del arte visual ejercita la creatividad y la comunicación no verbal, involucrando al lóbulo parietal.'
+        challenge: 'Intenta adivinar qué objeto tienes en las manos utilizando solo el sentido del tacto',
+        explanation: 'Este desafío pone a prueba la percepción táctil y la capacidad de identificar objetos basándose en sensaciones táctiles, funciones asociadas al lóbulo parietal.'
     },
     {
-        challenge: 'Crea un mapa de rutas para una aventura imaginaria.',
-        explanation: 'El diseño de mapas involucra la planificación, la visualización y la narrativa, funciones del lóbulo parietal.'
+        challenge: 'Observa un objeto durante 10 segundos y luego cierra los ojos. Descubre qué detalles recuerdas sobre el objeto',
+        explanation: 'La memoria sensorial y la capacidad de recordar detalles visuales están relacionadas con el lóbulo parietal, que se activa al realizar este desafío.'
     },
     {
-        challenge: 'Desarrolla un plan para mejorar un área específica de tu vida, como la organización de tu espacio.',
-        explanation: 'La planificación de mejoras involucra la toma de decisiones, la planificación y la implementación, activando el lóbulo parietal.'
+        challenge: 'Ponte una prenda de vestir con los ojos cerrados',
+        explanation: 'La percepción táctil y la habilidad para realizar tareas sin la ayuda de la vista están asociadas al lóbulo parietal, que se activa en este desafío.'
     },
     {
-        challenge: 'Participa en actividades de construcción con materiales naturales como palos o piedras.',
-        explanation: 'La construcción con materiales naturales ejercita la creatividad, la coordinación y la resolución de problemas, activando el lóbulo parietal.'
-    },
-    {
-        challenge: 'Dibuja un diagrama que explique un concepto complicado de una manera visualmente clara.',
-        explanation: 'La representación visual de conceptos complejos ejercita la síntesis de información y la comunicación visual, involucrando al lóbulo parietal.'
-    },
-    {
-        challenge: 'Participa en juegos de coordinación y equilibrio como caminar en línea recta con los ojos cerrados.',
-        explanation: 'Los juegos de coordinación y equilibrio ejercitan la percepción espacial, la coordinación motora y la concentración, activando el lóbulo parietal.'
-    },
-    {
-        challenge: 'Crea un proyecto de arte colaborativo con amigos utilizando diferentes medios artísticos.',
-        explanation: 'El arte colaborativo involucra la cooperación, la creatividad y la expresión, estimulando el lóbulo parietal.'
-    },
-    {
-        challenge: 'Organiza una sesión de juegos al aire libre que requiera movimientos físicos y coordinación.',
-        explanation: 'Los juegos al aire libre ejercitan la coordinación, el trabajo en equipo y la actividad física, involucrando al lóbulo parietal.'
-    },
-    {
-        challenge: 'Crea una lista visual de tus metas a corto y largo plazo.',
-        explanation: 'La visualización de metas ejercita la planificación, la motivación y el enfoque, activando el lóbulo parietal.'
-    },
-    {
-        challenge: 'Participa en actividades de clasificación y organización de objetos por color, forma o tamaño.',
-        explanation: 'Las actividades de clasificación ejercitan la atención, la discriminación visual y la organización, involucrando al lóbulo parietal.'
-    },
-    {
-        challenge: 'Dibuja una representación visual de un concepto científico o matemático.',
-        explanation: 'La representación visual de conceptos complejos estimula la comprensión, la creatividad y la comunicación, activando el lóbulo parietal.'
-    },
-    {
-        challenge: 'Desarrolla un juego de aventura interactivo utilizando cartas o dibujos.',
-        explanation: 'El diseño de juegos ejercita la creatividad, la lógica y la planificación, involucrando al lóbulo parietal.'
+        challenge: 'Encuentra tres objetos de diferentes texturas y organízalas de la más suave a la más áspera',
+        explanation: 'La percepción táctil y la capacidad de discriminar entre diferentes texturas están relacionadas con el lóbulo parietal, que se activa al realizar este desafío.'
     }
 ];
+
 
 const temporalLobeChallenges = [
     {
-        challenge: 'Escucha una pieza musical y dibuja lo que te hace sentir.',
-        explanation: 'Este desafío involucra el lóbulo temporal, responsable del procesamiento auditivo y la memoria auditiva, estimulando la expresión artística y emocional.'
+        challenge: 'Con los ojos vendados intenta encontrar a tres participantes que se encuentran en distintas partes del salón solo escuchando sus voces',
+        explanation: 'Este desafío activa el lóbulo temporal al requerir el reconocimiento y la interpretación auditiva de las voces para identificar a las personas en base a sus sonidos únicos.'
     },
     {
-        challenge: 'Canta una canción que te guste y crea una coreografía para ella.',
-        explanation: 'La actividad musical involucra la coordinación, la memoria y la creatividad, funciones asociadas al lóbulo temporal.'
-    },
+        challenge: 'Reconoce un compañero sin verlo solo escuchando su voz',
+        explanation: 'La capacidad de reconocer a alguien por su voz involucra la memoria auditiva y la asociación de sonidos con identidades, lo que activa el lóbulo temporal.'
+    }, 
     {
-        challenge: 'Lee un poema o cuento y representa escenas clave con dibujos o imágenes.',
-        explanation: 'La interpretación visual de textos literarios ejercita la comprensión, la creatividad y la narrativa, activando el lóbulo temporal.'
-    },
+        challenge: 'Identifica un olor que te haga recordar un momento feliz',
+        explanation: 'El lóbulo temporal está relacionado con la memoria emocional, permitiendo asociar olores con recuerdos y emociones específicas.'
+    },    
     {
-        challenge: 'Participa en juegos de adivinanzas o acertijos auditivos.',
-        explanation: 'Los juegos auditivos ejercitan la atención auditiva, la resolución de problemas y la memoria, involucrando al lóbulo temporal.'
-    },
+        challenge: 'Ve hasta la puerta y aplaude tres veces solo después de haberte rascado la nariz',
+        explanation: 'Este desafío implica recordar y seguir instrucciones secuenciales, lo cual activa la memoria a corto plazo y las habilidades de ejecución del lóbulo temporal.'
+    },    
     {
-        challenge: 'Crea una historia de ficción con personajes y aventuras imaginativas.',
-        explanation: 'La narrativa creativa ejercita la imaginación, la planificación y la comunicación, estimulando el lóbulo temporal.'
-    },
+        challenge: 'Cuenta cuántas consonantes tiene la palabra radiactividad',
+        explanation: 'Contar y analizar la estructura de palabras implica procesamiento lingüístico y comprensión, funciones asociadas al lóbulo temporal.'
+    }, 
     {
-        challenge: 'Escucha un podcast educativo y resume la información principal.',
-        explanation: 'La escucha activa y la síntesis de información involucran al lóbulo temporal, apoyando la comprensión y el aprendizaje.'
-    },
+        challenge: 'Si eres varón o tienes más de 11 años tócate la oreja en otro caso tócate la rodilla',
+        explanation: 'Este desafío requiere el procesamiento de instrucciones condicionales, activando las áreas del lóbulo temporal relacionadas con la comprensión del lenguaje y la memoria de trabajo.'
+    },    
     {
-        challenge: 'Dibuja una secuencia de eventos de un día en tu vida.',
-        explanation: 'La narración visual de experiencias cotidianas ejercita la memoria episódica y la narrativa, activando el lóbulo temporal.'
-    },
+        challenge: 'Intenta reconocer la melodía de una canción entonada por otro participante',
+        explanation: 'El reconocimiento auditivo de melodías y sonidos complejos involucra la memoria musical y las capacidades de percepción auditiva, áreas asociadas al lóbulo temporal.'
+    },    
     {
-        challenge: 'Crea un collage de fotos que representen momentos significativos.',
-        explanation: 'La organización visual de recuerdos estimula la memoria autobiográfica y la expresión creativa, involucrando al lóbulo temporal.'
-    },
+        challenge: 'Presta atención a los sonidos del ambiente por unos segundos luego enumera cinco cosas que hayas escuchado',
+        explanation: 'Este desafío requiere la atención selectiva auditiva y la capacidad de retención a corto plazo de información auditiva, funciones fundamentales del lóbulo temporal.'
+    }, 
     {
-        challenge: 'Juega un juego de memoria auditiva con sonidos y secuencias de tonos.',
-        explanation: 'Los juegos auditivos ejercitan la memoria sonora y la atención auditiva, funciones asociadas al lóbulo temporal.'
-    },
+        challenge: 'Cuenta una anécdota divertida en tu infancia',
+        explanation: 'Recordar y contar anécdotas implica acceder a la memoria autobiográfica almacenada en el lóbulo temporal, relacionada con experiencias personales y emocionales.'
+    },    
     {
-        challenge: 'Escribe un diario de tus emociones y pensamientos durante una semana.',
-        explanation: 'La autorreflexión y el registro de experiencias estimulan la memoria autobiográfica y la introspección, activando el lóbulo temporal.'
-    },
-    {
-        challenge: 'Crea una historia interactiva con opciones de elección para el lector.',
-        explanation: 'La creación de historias ramificadas ejercita la toma de decisiones y la narrativa, involucrando al lóbulo temporal.'
-    },
-    {
-        challenge: 'Participa en actividades de reconocimiento de sonidos en la naturaleza.',
-        explanation: 'La escucha atenta de sonidos ambientales estimula la atención auditiva y la conexión con el entorno, activando el lóbulo temporal.'
-    },
-    {
-        challenge: 'Dibuja una imagen que represente tu momento favorito del año.',
-        explanation: 'La representación visual de momentos significativos ejercita la memoria emocional y la expresión artística, involucrando al lóbulo temporal.'
-    },
-    {
-        challenge: 'Escucha un relato oral tradicional y reinterpreta la historia a tu manera.',
-        explanation: 'La reinterpretación de historias estimula la creatividad y la comprensión narrativa, activando el lóbulo temporal.'
-    },
-    {
-        challenge: 'Aprende a tocar una canción en un instrumento musical y realiza una presentación.',
-        explanation: 'El aprendizaje musical ejercita la memoria muscular, la coordinación y la expresión artística, involucrando al lóbulo temporal.'
-    },
-    {
-        challenge: 'Crea un guión para una obra de teatro corta y realiza una representación con amigos.',
-        explanation: 'La creación y representación teatral ejercitan la planificación, la colaboración y la expresión emocional, activando el lóbulo temporal.'
-    },
-    {
-        challenge: 'Organiza una sesión de lectura en voz alta con amigos y discutan las historias.',
-        explanation: 'La lectura en voz alta promueve la comunicación, la comprensión y el intercambio de ideas, involucrando al lóbulo temporal.'
-    },
-    {
-        challenge: 'Crea un juego de adivinanzas auditivas para desafiar a tus amigos.',
-        explanation: 'El diseño de juegos auditivos ejercita la creatividad, la lógica y la interacción social, activando el lóbulo temporal.'
-    },
-    {
-        challenge: 'Participa en actividades de narración oral o cuentacuentos con temas de tu elección.',
-        explanation: 'La narración oral estimula la comunicación, la creatividad y la expresión emocional, involucrando al lóbulo temporal.'
-    },
-    {
-        challenge: 'Dibuja una secuencia de eventos históricos importantes y comenta sobre ellos.',
-        explanation: 'La representación visual de eventos históricos ejercita la comprensión histórica y la narrativa visual, activando el lóbulo temporal.'
-    }
+        challenge: 'Ordena las siguientes sílabas para formar una palabra: TA-MIEN-NA-ES-CIO-TO',
+        explanation: 'Este desafío activa el procesamiento lingüístico y la memoria secuencial al requerir la formación de una palabra correcta a partir de sus sílabas, funciones asociadas al lóbulo temporal.'
+    }    
 ];
+
 
 const cerebellumLobeChallenges = [
     {
-        challenge: 'Realiza una serie de ejercicios de equilibrio y coordinación física.',
-        explanation: 'Este desafío involucra al cerebelo, que es responsable de la coordinación motora y el equilibrio, estimulando la destreza física y la precisión.'
+        challenge: 'Levanta tu pulgar izquierdo y señálalo con tu índice derecho. Luego cambia rápidamente y haz lo mismo al inversa señalando pulgar derecho. Vuelve a repetirlo varias veces',
+        explanation: 'Este desafío requiere coordinación precisa entre la vista y el movimiento muscular. El cerebelo ayuda a coordinar los movimientos finos de los músculos para realizar esta acción correctamente.'
     },
     {
-        challenge: 'Participa en juegos de deportes que requieran movimientos precisos y rápidos.',
-        explanation: 'Los deportes que implican coordinación y rapidez ejercitan el cerebelo, apoyando la habilidad motora y la toma de decisiones.'
+        challenge: 'Desplázate de un lado a otro del salón saltando en un pie',
+        explanation: 'El salto en un pie requiere equilibrio y coordinación motora. El cerebelo ayuda a mantener el equilibrio y coordinar los movimientos necesarios para saltar de manera controlada.'
     },
     {
-        challenge: 'Realiza una serie de movimientos de baile coordinados con música.',
-        explanation: 'La danza estimula la coordinación, el ritmo y la expresión corporal, involucrando al cerebelo en la coordinación motora fina.'
+        challenge: 'Levanta una rodilla mientras recoges un objeto del piso y te lo colocas en la cabeza mantente en esa posición durante 10 segundos',
+        explanation: 'Este desafío combina la coordinación entre levantar la rodilla, recoger un objeto y mantener el equilibrio. El cerebelo juega un papel clave en la coordinación de estos movimientos.'
     },
     {
-        challenge: 'Juega juegos de destreza como apilar bloques o construir torres con precisión.',
-        explanation: 'Los juegos de destreza ejercitan la coordinación motora fina y la precisión, activando el cerebelo en el control de movimientos.'
+        challenge: 'Haz una pose de yoga y manténla durante al menos 10 segundos',
+        explanation: 'Las poses de yoga requieren equilibrio, fuerza y coordinación muscular. El cerebelo ayuda a coordinar los músculos para mantener la postura y el equilibrio durante la pose.'
     },
     {
-        challenge: 'Participa en actividades de dibujo que requieran trazos precisos y controlados.',
-        explanation: 'El dibujo y la escritura estimulan la coordinación mano-ojo y la precisión motora, involucrando al cerebelo en la destreza manual.'
+        challenge: 'Camina por una línea imaginaria durante 20 segundos sin perder el equilibrio',
+        explanation: 'Caminar en línea recta sin perder el equilibrio requiere coordinación precisa de los músculos y un buen control del equilibrio. El cerebelo es crucial para esta tarea.'
     },
     {
-        challenge: 'Realiza ejercicios de yoga o estiramientos para mejorar la flexibilidad y el equilibrio.',
-        explanation: 'El yoga y los estiramientos ejercitan la coordinación, el equilibrio y la conciencia corporal, activando el cerebelo.'
+        challenge: 'Mueve tu pie formando un círculo en sentido horario mientras que con tu mano dibujas el número 6 en el aire',
+        explanation: 'Este desafío requiere coordinación entre movimientos de las extremidades superiores e inferiores de manera opuesta. El cerebelo coordina estos movimientos para realizar la tarea de forma precisa.'
     },
     {
-        challenge: 'Participa en juegos de construcción o modelado con plastilina para desarrollar habilidades táctiles.',
-        explanation: 'Los juegos táctiles y de construcción estimulan la coordinación manual, la percepción táctil y la creatividad, activando el cerebelo.'
+        challenge: 'Toca tu oreja derecha con tu mano izquierda y tu nariz con la derecha. Cambia rápidamente de manos y repítelo varias veces',
+        explanation: 'Este desafío implica la coordinación de movimientos cruzados del cuerpo, lo cual requiere una comunicación precisa entre el cerebro y el cerebelo para ejecutar los movimientos de manera efectiva.'
     },
     {
-        challenge: 'Practica la escritura a mano con letras y formas precisas y uniformes.',
-        explanation: 'La escritura a mano ejercita la coordinación fina y la destreza motora, estimulando el cerebelo en el control de movimientos.'
+        challenge: 'Colócate la media y el zapato manteniendo el pie en el aire',
+        explanation: 'Este desafío involucra coordinación motora fina para colocar la media y el zapato sin perder el equilibrio. El cerebelo ayuda a coordinar estos movimientos de manera precisa.'
     },
     {
-        challenge: 'Aprende a tocar un instrumento musical que requiera coordinación entre manos y dedos.',
-        explanation: 'El aprendizaje musical ejercita la coordinación motora fina y la sincronización, activando el cerebelo en la destreza musical.'
+        challenge: 'Párate con tus pies juntos, balancea tu cuerpo hacia adelante y atrás alternando el apoyo en los talones y la punta de los pies durante 10 segundos sin caerte',
+        explanation: 'El equilibrio y la coordinación son clave en este desafío, ya que implica movimientos controlados hacia adelante y atrás mientras se alternan los puntos de apoyo. El cerebelo juega un papel esencial en esta tarea.'
     },
     {
-        challenge: 'Realiza ejercicios de agilidad y rapidez mental como crucigramas o sudokus.',
-        explanation: 'Los ejercicios mentales de agilidad ejercitan la coordinación cognitiva y la toma de decisiones, activando el cerebelo en la rapidez mental.'
-    },
-    {
-        challenge: 'Participa en juegos de video que requieran reflejos rápidos y precisión de movimientos.',
-        explanation: 'Los juegos de video que implican reflejos rápidos ejercitan la coordinación motora y la toma de decisiones, activando el cerebelo.'
-    },
-    {
-        challenge: 'Practica la escritura cursiva o caligrafía para mejorar la coordinación de movimientos.',
-        explanation: 'La escritura cursiva ejercita la coordinación mano-ojo y la precisión en los movimientos, estimulando el cerebelo en la destreza escrita.'
-    },
-    {
-        challenge: 'Realiza actividades de construcción con bloques o piezas que requieran precisión y paciencia.',
-        explanation: 'Las actividades de construcción ejercitan la coordinación motora fina y la planificación, activando el cerebelo en la destreza constructiva.'
-    },
-    {
-        challenge: 'Participa en actividades de jardinería que requieran movimientos precisos y cuidadosos.',
-        explanation: 'La jardinería estimula la coordinación motora fina y la atención al detalle, activando el cerebelo en la destreza manual.'
-    },
-    {
-        challenge: 'Practica juegos de mesa que requieran movimientos precisos y estratégicos.',
-        explanation: 'Los juegos de mesa estratégicos ejercitan la coordinación motora fina y la planificación, activando el cerebelo en la toma de decisiones.'
-    },
-    {
-        challenge: 'Participa en actividades de costura o tejido que requieran habilidades manuales detalladas.',
-        explanation: 'La costura y el tejido ejercitan la coordinación motora fina y la paciencia, activando el cerebelo en la destreza textil.'
-    },
-    {
-        challenge: 'Realiza ejercicios de equilibrio y fortalecimiento muscular para mejorar la coordinación física.',
-        explanation: 'Los ejercicios de equilibrio y fortalecimiento ejercitan la coordinación motora y la estabilidad, activando el cerebelo en el control postural.'
-    },
-    {
-        challenge: 'Participa en actividades de construcción de modelos a escala que requieran precisión y atención al detalle.',
-        explanation: 'Las actividades de construcción de modelos ejercitan la coordinación motora fina y la precisión, activando el cerebelo en la destreza constructiva.'
-    },
-    {
-        challenge: 'Practica juegos de estrategia y habilidad que requieran movimientos rápidos y precisos.',
-        explanation: 'Los juegos de estrategia y habilidad ejercitan la coordinación motora fina y la toma de decisiones, activando el cerebelo en la destreza de juego.'
+        challenge: 'Levanta un pie hacia atrás mientras inclinas el tronco hacia adelante y abres los brazos. Mantente en esa postura por 15 segundos',
+        explanation: 'Este desafío combina equilibrio, coordinación y control muscular. El cerebelo ayuda a coordinar estos elementos para mantener la postura y realizar el movimiento de manera controlada.'
     }
 ];
+
 
 // Array of colors and corresponding brain lobes
 const colors = ['violeta', 'azul', 'verde', 'naranja', 'rojo'];
 const lobes = {
-    'violeta': {'name': 'Frontal', 'challenges': frontalLobeChallenges}, 
-    'azul': {'name': 'Occipital', 'challenges': occipitalLobeChallenges},
-    'verde': {'name': 'Temporal', 'challenges': temporalLobeChallenges},
-    'naranja': {'name': 'Cerebelo', 'challenges': cerebellumLobeChallenges},
-    'rojo': {'name': 'Parietal', 'challenges': parietalLobeChallenges}
+    'violeta': {'name': 'Frontal', 'challenges': frontalLobeChallenges, 'en-color': 'violet'}, 
+    'azul': {'name': 'Occipital', 'challenges': occipitalLobeChallenges, 'en-color': 'blue'},
+    'verde': {'name': 'Temporal', 'challenges': temporalLobeChallenges, 'en-color': 'green'},
+    'naranja': {'name': 'Cerebelo', 'challenges': cerebellumLobeChallenges, 'en-color': 'orange'},
+    'rojo': {'name': 'Parietal', 'challenges': parietalLobeChallenges, 'en-color': 'red'}
 };
 
 // Function to start the game
@@ -422,17 +237,29 @@ document.getElementById('startGame').addEventListener('click', function() {
     challenges = lobes[randomColor]['challenges']
     const randomChallenge = challenges[Math.floor(Math.random() * challenges.length)];
 
+    //hide selected lobule until explanation is requested
+    document.getElementById('explanation').style.display = 'none';
+    document.getElementById('selectedColor').style.display = 'none';
+    document.getElementById('brainImage').style.display = 'none';
+
+
     // Update UI with selected color and challenge
-    document.getElementById('selectedColor').textContent = `Color: ${randomColor} (${lobes[randomColor]['name']})`;
-    document.getElementById('selectedChallenge').textContent = `Desafío: ${randomChallenge.challenge}`;
+    document.getElementById('selectedColor').textContent = `Lóbulo: ${lobes[randomColor]['name']}`;
+    document.getElementById('selectedColor').style.color = lobes[randomColor]['en-color'];
+    document.getElementById('selectedChallenge').innerHTML = `Desafío: ${randomChallenge.challenge}`;
+    document.getElementById('explanation').innerHTML = randomChallenge.explanation;
+    document.getElementById('explanation').style.color = lobes[randomColor]['en-color'];
 
     // Highlight the selected brain lobe in the graphic
     const brainImage = document.getElementById('brainImage');
     brainImage.src = 'images/' + randomColor + '.jpeg';
 
     // bind explanation
-    const explainButton = document.getElementById('explainChallenge');
-    explainButton.addEventListener('click', function() {
-        alert(randomChallenge.explanation);
-    });
+});
+
+document.getElementById('explainChallenge').addEventListener('click', function() {
+    document.getElementById('explanation').style.display = 'block';
+    document.getElementById('selectedColor').style.display = 'block';
+    document.getElementById('brainImage').style.display = 'block';
+
 });
