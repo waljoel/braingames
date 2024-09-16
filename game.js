@@ -1,7 +1,7 @@
 const frontalLobeChallenges = [
     {
         challenge: 'Siéntate en el piso y levántate sin apoyar los brazos',
-        explanation: 'Este desafío implica coordinación motora fina y equilibrio, habilidades que están controladas por el lóbulo frontal del cerebro.'
+        explanation: 'Este desafío implica principalmente planificación motora. El lóbulo frontal está involucrado en la planificación y ejecución del movimiento. Otras áreas como el cerebelo y los ganglios basales también juegan un papel crucial en esta tarea, pero el lóbulo frontal es más relevante en la iniciación y planificación de la acción.'
     },
     {
         challenge: 'Haz la mímica de las siguientes palabras e intenta que los demás adivinen: PALOMITA, ESCALERA, BUFANDA',
@@ -13,10 +13,10 @@ const frontalLobeChallenges = [
     },
     {
         challenge: 'Repite las siguientes palabras: ANTICONSTITUCIONALMENTE, CONSTANTINOPLA, ESTERNOCLEIDOMASTOIDEO',
-        explanation: 'Este desafío pone a prueba la memoria de trabajo y la capacidad de procesamiento del lenguaje, funciones asociadas al lóbulo frontal.'
+        explanation: 'Este desafío pone a prueba la memoria de trabajo, asociada al lóbulo frontal, y la capacidad de procesamiento del lenguaje (que involucra tanto al lóbulo frontal como al temporal).'
     },
     {
-        challenge: 'Responde a la siguiente pregunta: EL PADRE DE MARÍA TIENE 5 HIJAS, LALÁ, LELÍ, LOLÓ, Y ... ¿cómo se llama la quinta hija?',
+        challenge: 'Responde a la siguiente pregunta: EL PADRE DE MARÍA TIENE 5 HIJAS, LALÁ, LELE, LILÍ, LOLÓ, Y ... ¿cómo se llama la quinta hija?',
         explanation: 'Este desafío involucra el razonamiento lógico y la resolución de problemas, funciones clave del lóbulo frontal relacionadas con la toma de decisiones.'
     },
     {
@@ -33,11 +33,11 @@ const frontalLobeChallenges = [
     },
     {
         challenge: 'Responde a la siguiente pregunta: SI UN TREN SALE A LAS 10 A.M Y VIAJA A 60 KM/H, ¿a qué hora llegará a su destino?',
-        explanation: 'El lóbulo frontal se activa al resolver problemas matemáticos y planificar el tiempo, habilidades necesarias para este desafío.'
+        explanation: 'La solución al problema es que la hora de llegada depende a qué distancia se encuentre el destino, un dato que fue omitido en la pregunta. El lóbulo frontal se activa al resolver problemas matemáticos,razonamiento lógico y planificar el tiempo, habilidades necesarias para este desafío.'
     },
     {
         challenge: 'Describe una situación en la que sentiste miedo y cómo lo enfrentaste utilizando tu pensamiento racional',
-        explanation: 'Este desafío involucra el control emocional y la capacidad de reflexionar sobre experiencias pasadas, funciones asociadas al lóbulo frontal.'
+        explanation: 'Este desafío involucra el control emocional, la capacidad de reflexionar sobre experiencias pasadas y el pensamiento racional, funciones asociadas principalmente al lóbulo frontal. El lóbulo frontal juega un papel crucial en la regulación emocional y el pensamiento abstracto, permitiendo analizar situaciones pasadas y aplicar el razonamiento para manejar emociones como el miedo.'
     }
 ];
 
