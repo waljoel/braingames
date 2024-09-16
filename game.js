@@ -98,12 +98,12 @@ const parietalLobeChallenges = [
         explanation: 'Este desafío involucra la memoria episódica y la capacidad de recordar eventos recientes, funciones asociadas al lóbulo parietal.'
     },
     {
-        challenge: 'Imagina que estás en la playa. Descubre lo que ves, escuchas, sientes, hueles y saboreas en tu mente',
-        explanation: 'La capacidad de imaginar y experimentar sensaciones multisensoriales se relaciona con el lóbulo parietal, que se activa al realizar este desafío.'
+        challenge: 'Imagina que estás en la playa. Describe lo que ves, escuchas, sientes, hueles y saboreas en tu mente',
+        explanation: 'La imaginación multisensorial involucra múltiples áreas cerebrales. La capacidad de imaginar y experimentar sensaciones multisensoriales se relaciona con el lóbulo parietal, que se activa al realizar este desafío.'
     },
     {
-        challenge: 'Nombra tres objetos que tengan un aroma agradable',
-        explanation: 'El reconocimiento de estímulos sensoriales como el olfato está relacionado con el lóbulo parietal, que se activa al identificar olores agradables.'
+        challenge: 'Sin mirar, extiende tu mano y toca tres objetos diferentes a tu alrededor. Describe su forma y textura.',
+        explanation: 'El lóbulo parietal es fundamental en este desafío, ya que es responsable de la integración de la información sensorial táctil y propioceptiva. Procesa las sensaciones de tacto, presión y textura, y ayuda a interpretar la forma y el tamaño de los objetos sin ayuda visual. También participa en la conciencia espacial del cuerpo y su entorno, permitiendo localizar y alcanzar objetos en el espacio. Aunque otras áreas cerebrales están involucradas, el lóbulo parietal es clave para la percepción táctil y la integración sensoriomotora necesarias en esta tarea.'
     },
     {
         challenge: 'Con los ojos cerrados, abre los brazos y luego intenta tocar las puntas de tus dedos índices entre sí',
@@ -118,16 +118,16 @@ const parietalLobeChallenges = [
         explanation: 'Este desafío pone a prueba la percepción táctil y la capacidad de identificar objetos basándose en sensaciones táctiles, funciones asociadas al lóbulo parietal.'
     },
     {
-        challenge: 'Observa un objeto durante 10 segundos y luego cierra los ojos. Descubre qué detalles recuerdas sobre el objeto',
-        explanation: 'La memoria sensorial y la capacidad de recordar detalles visuales están relacionadas con el lóbulo parietal, que se activa al realizar este desafío.'
+        challenge: 'Observa un objeto durante 10 segundos. Luego, con los ojos cerrados, intenta describir su posición, tamaño y forma en relación con otros objetos cercanos.',
+        explanation: 'El lóbulo parietal es predominante en este desafío. Aunque el lóbulo occipital procesa inicialmente la información visual, el parietal es crucial para integrar esta información y crear una representación espacial del objeto y su entorno. Este lóbulo es responsable de la percepción espacial, la atención visual y la integración sensoriomotora. La tarea activa específicamente las áreas del lóbulo parietal involucradas en el mapeo espacial, la estimación de tamaños y la relación entre objetos en el espacio. Mientras que la memoria visual implica otras áreas cerebrales, el lóbulo parietal es esencial para mantener y manipular mentalmente la información espacial del objeto observado.'
     },
     {
         challenge: 'Ponte una prenda de vestir con los ojos cerrados',
-        explanation: 'La percepción táctil y la habilidad para realizar tareas sin la ayuda de la vista están asociadas al lóbulo parietal, que se activa en este desafío.'
+        explanation: 'La percepción táctil, la propiocepción (sentido de la posición del cuerpo) y la capacidad de realizar tareas sin ayuda visual están asociadas principalmente al lóbulo parietal.'
     },
     {
         challenge: 'Encuentra tres objetos de diferentes texturas y organízalas de la más suave a la más áspera',
-        explanation: 'La percepción táctil y la capacidad de discriminar entre diferentes texturas están relacionadas con el lóbulo parietal, que se activa al realizar este desafío.'
+        explanation: 'La percepción táctil y la capacidad de discriminar entre diferentes texturas están principalmente relacionadas con el lóbulo parietal, que se activa al realizar este desafío.'
     }
 ];
 
