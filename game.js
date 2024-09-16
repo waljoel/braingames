@@ -53,8 +53,8 @@ const occipitalLobeChallenges = [
         explanation: 'El lóbulo occipital es esencial para la percepción y el procesamiento visual. Este desafío requiere contar con precisión los elementos visuales identificados después de una observación enfocada del entorno.'
     },
     {
-        challenge: 'Observa una fila de participantes (u objetos) por unos segundos y luego intenta reproducir el órden en que se encontraban',
-        explanation: 'La memoria visual y la interpretación de secuencias espaciales son funciones del lóbulo occipital. Este desafío evalúa la capacidad de recordar y reproducir el orden espacial de objetos después de una breve observación.'
+        challenge: 'Observa una fila de participantes (u objetos) por unos segundos e identifica al mas grande y al mas pequeño',
+        explanation: 'El lóbulo occipital se activa principalmente al procesar la información visual de la fila de participantes u objetos. Este desafío pone a prueba la capacidad de percepción visual, comparación de tamaños y memoria a corto plazo. El cerebro debe procesar rápidamente las diferencias de tamaño entre los elementos observados y retener esta información para identificar los extremos.'
     },
     {
         challenge: 'Reconoce en el espacio dos objetos que tengan la misma forma pero distinto tamaño',
@@ -62,11 +62,11 @@ const occipitalLobeChallenges = [
     },
     {
         challenge: 'Observa esta secuencia de colores y repite el patrón: <center><div style="color:red; display: inline-block">R</div>, <div style="color:blue; display: inline-block">A</div>, <div style="color:blue; display: inline-block">A</div>, <div style="color:green; display: inline-block">V</div>, <div style="color:red; display: inline-block">R</div>, <div style="color:blue; display: inline-block">A</div>, <div style="color:blue; display: inline-block">A</div>, ...</center>',
-        explanation: 'El lóbulo occipital es responsable de procesar información visual, incluidos los colores y patrones. Este desafío evalúa la capacidad de recordar y repetir secuencias de colores después de una observación visual.'
+        explanation: 'Este desafío evalúa la capacidad de recordar y repetir secuencias de colores después de una observación visual. Si bien existen varias áreas involucradas el la resolución del desafío, el lóbulo occipital es responsable de procesar información visual, incluidos los colores y patrones.'
     },
     {
-        challenge: 'Observa a tu alrededor por algunos segundos y luego intenta recordar el color de la vestimenta de un participante',
-        explanation: 'La memoria visual es una función importante del lóbulo occipital. Este desafío pone a prueba la capacidad de recordar detalles visuales específicos, como los colores de la vestimenta, después de una observación breve.'
+        challenge: 'Mira a tu alrededor e intenta encontrar una prenda u objeto de color blanco',
+        explanation: 'Este desafío activa principalmente el lóbulo occipital, responsable del procesamiento visual. La tarea implica la percepción de colores, el reconocimiento de objetos y la atención selectiva'
     },
     {
         challenge: 'Identifica el espacio cuatro objetos de un mismo color',
@@ -77,12 +77,12 @@ const occipitalLobeChallenges = [
         explanation: 'La interpretación visual de formas y la capacidad de identificar similitudes son funciones del lóbulo occipital. Este desafío evalúa la capacidad de encontrar objetos con formas similares en el entorno visual.'
     },
     {
-        challenge: 'Observa tu alrededor durante 20 segundos y luego con los ojos cerrados trata de descubrir cuatro cosas que habías podido visualizar',
-        explanation: 'La memoria visual y la capacidad de recordar detalles visuales son funciones del lóbulo occipital. Este desafío pone a prueba la memoria visual al recordar objetos visualizados después de un periodo de observación.'
+        challenge: 'Observa tu alrededor durante 20 segundos y luego, con los ojos cerrados, intenta nombrar cuatro objetos que hayas visto',
+        explanation: 'El lóbulo occipital es crucial en el procesamiento visual inicial y la formación de representaciones visuales. Este desafío pone a prueba la capacidad del lóbulo occipital para procesar y codificar información visual detallada en un corto período. Aunque otras áreas cerebrales participan en la memoria, el lóbulo occipital es fundamental para la percepción y el análisis visual necesarios para este ejercicio.'
     },
     {
-        challenge: 'Observa una secuencia de cuatro movimientos realizados por otro participantes y luego reprodúcela',
-        explanation: 'La interpretación visual de movimientos y la coordinación visuomotora son funciones del lóbulo occipital. Este desafío requiere observar y reproducir secuencias de movimientos después de una observación visual.'
+        challenge: 'Observa una secuencia de cuatro gestos faciales realizados por otro participante y luego reprodúcelos en el mismo orden',
+        explanation: 'El lóbulo occipital es esencial en la percepción y el análisis de expresiones faciales. Este desafío se centra en la capacidad del lóbulo occipital para procesar información visual compleja relacionada con movimientos faciales. Mientras que la reproducción de los gestos involucra otras áreas motoras, la observación y el análisis visual dependen principalmente del lóbulo occipital'
     }    
 ];
 
