@@ -143,11 +143,11 @@ const temporalLobeChallenges = [
     }, 
     {
         challenge: 'Identifica un olor que te haga recordar un momento feliz',
-        explanation: 'El lóbulo temporal está relacionado con la memoria emocional, permitiendo asociar olores con recuerdos y emociones específicas.'
+        explanation: 'El lóbulo temporal está involucrado en la memoria emocional y en la asociación de olores con recuerdos específicos. El procesamiento olfativo primario ocurre en la corteza olfativa (parte del lóbulo temporal), y la conexión entre olores y emociones también involucra al sistema límbico, particularmente la amígdala y el hipocampo. Este desafío activa una red compleja de estructuras cerebrales que conectan olfato, memoria y emoción.'
     },    
     {
-        challenge: 'Ve hasta la puerta y aplaude tres veces solo después de haberte rascado la nariz',
-        explanation: 'Este desafío implica recordar y seguir instrucciones secuenciales, lo cual activa la memoria a corto plazo y las habilidades de ejecución del lóbulo temporal.'
+        challenge: 'Recuerda mentalmente una canción, repite en tu mente una parte de la letra, y luego escribe tres palabras clave de esa letra que recuerdes.',
+        explanation: 'Este desafío sigue implicando el lóbulo temporal, que es responsable de la memoria a largo plazo y el procesamiento del lenguaje. Al recordar una canción y su letra, estás utilizando tu memoria auditiva y lingüística, funciones que están fuertemente asociadas con el lóbulo temporal. A diferencia de un desafío que requiere planificación y ejecución de una secuencia de acciones (más vinculadas al lóbulo frontal), este ejercicio pone en primer plano el almacenamiento y recuperación de información auditiva y verbal, controlados principalmente por el lóbulo temporal.'
     },    
     {
         challenge: 'Cuenta cuántas consonantes tiene la palabra radiactividad',
@@ -155,7 +155,7 @@ const temporalLobeChallenges = [
     }, 
     {
         challenge: 'Si eres varón o tienes más de 11 años tócate la oreja en otro caso tócate la rodilla',
-        explanation: 'Este desafío requiere el procesamiento de instrucciones condicionales, activando las áreas del lóbulo temporal relacionadas con la comprensión del lenguaje y la memoria de trabajo.'
+        explanation: 'Este desafío requiere principalmente el procesamiento de instrucciones condicionales, activando las áreas del lóbulo temporal relacionadas con la comprensión del lenguaje y la memoria de trabajo.'
     },    
     {
         challenge: 'Intenta reconocer la melodía de una canción entonada por otro participante',
@@ -163,7 +163,7 @@ const temporalLobeChallenges = [
     },    
     {
         challenge: 'Presta atención a los sonidos del ambiente por unos segundos luego enumera cinco cosas que hayas escuchado',
-        explanation: 'Este desafío requiere la atención selectiva auditiva y la capacidad de retención a corto plazo de información auditiva, funciones fundamentales del lóbulo temporal.'
+        explanation: 'Si bien este desafío requiere la coordinación de múltiples áreas cerebrales, involucra principalmente el procesamiento auditivo y la memoria auditiva a corto plazo, funciones fundamentales del lóbulo temporal.'
     }, 
     {
         challenge: 'Cuenta una anécdota divertida en tu infancia',
@@ -171,7 +171,7 @@ const temporalLobeChallenges = [
     },    
     {
         challenge: 'Ordena las siguientes sílabas para formar una palabra: TA-MIEN-NA-ES-CIO-TO',
-        explanation: 'Este desafío activa el procesamiento lingüístico y la memoria secuencial al requerir la formación de una palabra correcta a partir de sus sílabas, funciones asociadas al lóbulo temporal.'
+        explanation: 'Este desafío activa el procesamiento lingüístico, que involucra tanto al lóbulo temporal (comprensión de las sílabas) como al lóbulo frontal (manipulación y reorganización de la información). En particular, el lóbulo temporal contribuye al reconocimiento de las sílabas y la verificación de la palabra formada.'
     }    
 ];
 
@@ -187,7 +187,7 @@ const cerebellumLobeChallenges = [
     },
     {
         challenge: 'Levanta una rodilla mientras recoges un objeto del piso y te lo colocas en la cabeza mantente en esa posición durante 10 segundos',
-        explanation: 'Este desafío combina la coordinación entre levantar la rodilla, recoger un objeto y mantener el equilibrio. El cerebelo juega un papel clave en la coordinación de estos movimientos.'
+        explanation: 'Este desafío combina la coordinación entre levantar la rodilla, recoger un objeto y mantener el equilibrio. El cerebelo juega un papel clave en la coordinación de estos movimientos complejos, el ajuste fino del equilibrio y la postura. Además, el cerebelo trabaja en conjunto con otras áreas cerebrales como la corteza motora (lóbulo frontal) para la planificación y ejecución de estos movimientos precisos.'
     },
     {
         challenge: 'Haz una pose de yoga y manténla durante al menos 10 segundos',
@@ -207,7 +207,7 @@ const cerebellumLobeChallenges = [
     },
     {
         challenge: 'Colócate la media y el zapato manteniendo el pie en el aire',
-        explanation: 'Este desafío involucra coordinación motora fina para colocar la media y el zapato sin perder el equilibrio. El cerebelo ayuda a coordinar estos movimientos de manera precisa.'
+        explanation: 'Este desafío involucra coordinación motora fina para colocar la media y el zapato sin perder el equilibrio. El cerebelo ayuda a coordinar estos movimientos de manera precisa, ajustando constantemente la postura y el equilibrio mientras se realizan tareas manuales delicadas.'
     },
     {
         challenge: 'Párate con tus pies juntos, balancea tu cuerpo hacia adelante y atrás alternando el apoyo en los talones y la punta de los pies durante 10 segundos sin caerte',
